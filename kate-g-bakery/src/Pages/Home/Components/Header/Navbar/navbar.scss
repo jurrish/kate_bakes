@@ -1,0 +1,42 @@
+$color-main: #81d8d0;
+$hover-color: #702963;
+$gold-border: #f4b841;
+
+ul {
+  height: 1%;
+  padding: 40px;
+  width: 80vw;
+  min-width: 400px;
+  margin-left: 240px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  background-color: pink;
+}
+
+li {
+  // font-family: sans-serif;
+  list-style-type: none;
+  text-align: center;
+  color: $color-main;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: .5px .5px black;
+}
+
+li:hover {
+  color: $hover-color;
+  font-weight: normal;
+  text-shadow: none;
+  font-size: 22px;
+}
+
+.navbar-container {
+  height: 80px;
+  max-width: 100%;
+  min-width: 500px;
+  background-color: pink;
+  border-bottom-style: dotted;
+  border-bottom-width: 6px;
+  border-bottom-color: white;
+}
