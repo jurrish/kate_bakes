@@ -1,16 +1,30 @@
 $color-main: #81d8d0;
-body {
-  font-family: 'Dancing Script', cursive;
+$gold-border: #f4b841;
 
-}
 .main-page {
+  border-top-width: 100vh;
   height: 100%;
-  background-color: $color-main;
+  width: 100%;
+
+  section {
+    padding-left: 10em;
+    padding-right: 10em;
+    border-top-color: $gold-border;
+    border-top-style: solid;
+    font-size: 24px;
+  }
+
+  p {
+    margin-top: 95px;
+    margin-bottom: 95px;
+    opacity: .7;
+    background-color: white;
+    padding: 60px 25px;
+    border-color: $color-main;
+    border-style: groove;
+  }
 }
 
-p {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 300px;
-  font-size: 30px;
-}
+#first-section {
+  margin-top: 225px;
+};

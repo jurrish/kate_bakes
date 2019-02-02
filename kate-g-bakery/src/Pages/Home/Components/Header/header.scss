@@ -6,22 +6,17 @@ header {
   height: 100px;
   width: 100%;
   display: flex;
-  // text-align: left;
-  // align-content: stretch;
   background-color: $color-main;
 }
 
 .header {
   border-top-color: $gold-border;
-  // border-top-style: double;
   display: flex;
   min-width: 450px;
   max-width: 100vw;
   border-bottom-style: double;
   border-bottom-width: 6px;
-  // border-top-width: 6px;
   border-bottom-color: $gold-border;
-  // justify-content: center;
 }
 
 .sticky {
