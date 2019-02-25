@@ -5,13 +5,23 @@ $gold-border: #f4b841;
   border-top-width: 100vh;
   height: 100%;
   width: 100%;
+  background-color: $color-main;
 
   section {
+    margin-top: 7em;
     padding-left: 10em;
     padding-right: 10em;
-    border-top-color: $gold-border;
-    border-top-style: solid;
+    border-color: $gold-border;
+    border-style: solid;
+    border-width: 2px;
     font-size: 24px;
+    background: url('../../../src/Resources/home_background.png');
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 5em;
+    // border-bottom-width: medium;
+    padding-bottom: 30px;
+
   }
 
   p {
@@ -25,6 +35,20 @@ $gold-border: #f4b841;
   }
 }
 
+#clear {
+  // border-top: 30px;
+  border-top-color: white;
+  border-top-width: 180px;
+  border-top-style: solid;
+  margin-top: 45px;
+  background: $color-main;
+  // height: 20px;
+}
+
 #first-section {
-  margin-top: 225px;
+  // border-top-color: red;
+  margin-top: 3em;
+  // margin-top: 225px;
+  // margin-top: 10em;
+  // padding-top: 600px;
 };

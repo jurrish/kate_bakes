@@ -11,7 +11,7 @@ class Navbar extends Component {
           <li>Cake Menu</li>
           <li>Treat Menu</li>
           <li>Contact & Catering</li>
-          <li>Gallery</li>
+          <li>Raves & Reviews</li>
           <li>About Us</li>
         </ul>
       </div>

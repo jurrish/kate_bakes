@@ -1,0 +1,92 @@
+$color-main: #81d8d0;
+$hover-color: #702963;
+$gold-border: #f4b841;
+
+.footer-container {
+  height: 500px;
+  background-color: green;
+  margin-bottom: 0;
+}
+
+
+$color-main: #81d8d0;
+$gold-border: #f4b841;
+
+.social-media-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // position: fixed;
+  justify-content: center;
+  // top: 5px;
+  margin-left: 95vw;
+  max-width: 0px;
+  background: $color-main;
+  z-index: 9999999;
+}
+
+.facebook-icon img {
+  margin-right: 210px;
+  order: 1;
+  border-style: groove;
+  // margin-top: 28px;
+  max-width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 15%;
+  border-color: white;
+}
+
+.facebook-icon img:hover {
+  background-color: pink;
+  border-radius: 20%;
+  height: 45px;
+  min-width: 45px;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: white;
+}
+
+
+.instagram-icon img {
+  background-color: white;
+  border-radius: 15%;
+  border-style: groove;
+  margin-right: 85px;
+  // margin-top: 28px;
+  order: 2;
+  max-width: 40px;
+  height: 40px;
+  border-color: white;
+}
+
+.instagram-icon img:hover {
+  background-color: pink;
+  border-radius: 20%;
+  height: 45px;
+  min-width: 45px;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: white;
+}
+
+.twitter-icon img {
+  background-color: white;
+  border-radius: 15%;
+  border-style: groove;
+  margin-right: -30px;
+  order: 3;
+  // margin-top: 28px;
+  max-width: 40px;
+  height: 40px;
+}
+
+.twitter-icon img:hover {
+  background-color: pink;
+  border-radius: 20%;
+  height: 45px;
+  min-width: 45px;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: white;
+}
