@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import Home from './Pages/Home/home.js';
+import React, { Component } from 'react'
+import Home from './Pages/Home/home.js'
 
-import './App.scss';
-import './Pages/Home/Home.scss';
+import './App.scss'
+import './Pages/Home/Home.scss'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
+      <div className='App'>
         <Home />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
